@@ -1,0 +1,67 @@
+{
+  "$schema": "https://getcomposer.org/schema.json",
+  "name": "livro",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "resolve": "npx npm-force-resolutions"
+  },
+  "dependencies": {
+    "@firebase/auth": "^0.19.3",
+    "@firebase/firestore": "^3.4.0",
+    "@react-native-community/geolocation": "^2.0.2",
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^6.0.9",
+    "@react-navigation/drawer": "^6.3.0",
+    "@react-navigation/native": "^6.0.6",
+    "@react-navigation/stack": "^6.0.11",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "firebase": "^9.6.0",
+    "moment": "^2.29.1",
+    "native-base": "^3.2.2",
+    "prettier": "^2.5.1",
+    "react": "^17.0.2",
+    "react-native": "^0.66.3",
+    "react-native-animatable": "^1.3.3",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-linear-gradient": "^2.5.6",
+    "react-native-permissions": "^3.1.0",
+    "react-native-reanimated": "^2.2.4",
+    "react-native-safe-area-context": "^3.3.2",
+    "react-native-screens": "^3.10.0",
+    "react-native-shadow-cards": "^1.0.2",
+    "react-native-svg": "^9.12.0",
+    "react-native-svg-transformer": "^0.13.0",
+    "react-native-swiper": "^1.6.0",
+    "react-native-vector-icons": "^9.0.0",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "resolve-url": "^0.2.1",
+    "styled-components": "^5.3.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/runtime": "^7.16.3",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^27.3.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jest": "^27.3.1",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "resolutions": {
+    "ansi-regex": "5.0.1",
+    "nth-check": "2.0.1"
+  }
+}
